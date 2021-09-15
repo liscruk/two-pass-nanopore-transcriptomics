@@ -1,0 +1,28 @@
+# Define Path for results 
+resultsdir: ""
+
+# Define expiriment name
+expiriment: ""
+
+# Define n-threads:
+threads: 32
+
+# Define references
+# Path to fasta formatted reference
+ref_genome: ""
+
+# Path to annotation gtf.
+ref_annotation: ""
+
+#Path to gene model reference in bed format required by salmon.
+ref_model: ""
+
+# Give path to minimap indexed reference data.
+index: ""
+
+### Add samples as needed.Define sample names as needed. One sample per line.
+samples:
+  Sample-1: ""
+
+# Define location for support scripts and depencendies
+source: "src"
